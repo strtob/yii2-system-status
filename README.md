@@ -29,4 +29,7 @@ Adjust your config in web.php or main.php
             'class' => strtob\yii2SystemStatus\Module::class,
         ],
 ```
-
+After installation the module is accessable via 
+```bash
+http://localhost:8080/system-status
+```
