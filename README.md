@@ -11,6 +11,11 @@ Yii2 module to see system conditions via a check table. This module allows you t
 ![screenshot](screenshot_yii2_system_status.png)
 
 ## Installation
+Create table (table name is system_check) and insert some inital values.
+
+```bash
+php yii migrate
+```
 
 You can install this package via Composer. Run the following command in your terminal:
 
