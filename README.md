@@ -8,9 +8,20 @@ Yii2 module to see system conditions via a check table. This module allows you t
 - Easily customizable checks through a dedicated database table.
 - Supports multiple criteria for checks, including numerical, version, and string comparisons.
 
+![screenshot](screenshot_yii2_system_status.png)
+
 ## Installation
 
 You can install this package via Composer. Run the following command in your terminal:
 
 ```bash
 composer require strtob/yii2-system-status
+```
+
+Adjust your config in web.php or main.php
+```bash
+ 'system-status' => [
+            'class' => strtob\yii2SystemStatus\Module::class,
+        ],
+```
+
