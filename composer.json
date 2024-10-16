@@ -1,0 +1,19 @@
+{
+    "name": "strtob/yii2-system-status",
+    "description": "Yii2 module to see system conditions via a check table",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "strtob\\ii2SystemStatus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tobias Streckel"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.0"
+    }
+}

@@ -1,0 +1,62 @@
+/* Style for the search input field */
+#searchInput {
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Style for the system status table */
+#systemStatusTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Table header and cell styling */
+#systemStatusTable th{
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+/* Style the table header with icons directly after the text */
+#systemStatusTable th {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  position: relative;
+}
+
+/* Style for the sorting icons (FontAwesome) directly after text */
+#systemStatusTable th i {
+  margin-left: 5px; /* Small space between the text and icon */
+  color: #666; /* Grey icon color */
+}
+
+/* Add hover effect and link color for headers */
+#systemStatusTable th:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.system-check-child {  
+  padding-left: 40px !important;
+}
+
+.system-check-child::before {
+  content: '⏵'; /* Insert the symbol */ 
+}
+
+.systemStatusTableRowHeader {
+  background-color: #fbfbfb;
+  font-weight: bold;
+}
